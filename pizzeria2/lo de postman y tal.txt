@@ -1,0 +1,13 @@
+Puedes utilizar Postman para hacer las peticiones HTTP a tu API y comprobar que estás obteniendo las respuestas esperadas.
+
+Por ejemplo, para comprobar el método index, podrías hacer una petición GET a la URL correspondiente y comprobar que recibes una lista de todas las pizzas disponibles.
+
+Para el método show, podrías hacer una petición GET a la URL de una pizza específica y comprobar que recibes la información detallada de esa pizza.
+
+Para el método store, podrías hacer una petición POST a la URL de creación de pizzas, incluyendo los datos necesarios en el cuerpo de la petición, y comprobar que se crea una nueva pizza en la base de datos.
+
+Para el método delete, podrías hacer una petición DELETE a la URL de una pizza específica y comprobar que la pizza correspondiente se elimina de la base de datos.
+
+Para el método update, podrías hacer una petición PUT o PATCH a la URL de una pizza específica, incluyendo los datos actualizados en el cuerpo de la petición, y comprobar que los cambios se han aplicado correctamente en la base de datos.
+
+Postman te permitirá ver la respuesta completa de cada petición, incluyendo cualquier mensaje de error o detalles adicionales que te puedan ayudar a depurar cualquier problema que puedas encontrar.
