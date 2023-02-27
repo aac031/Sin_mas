@@ -1,0 +1,17 @@
+Para comprobar la API REST del modelo Ingredient en Postman, puedes seguir los siguientes pasos:
+
+Abre Postman y crea una nueva solicitud HTTP.
+
+En la sección de la solicitud, selecciona el método HTTP que deseas probar (por ejemplo, GET, POST, PUT o DELETE).
+
+Ingresa la URL de la ruta que deseas probar. Por ejemplo, si deseas probar el método index, ingresa la URL http://tu-dominio.com/api/ingredients en la sección de la URL.
+
+Si el método requiere parámetros o datos, ingresa los datos en la sección de Cuerpo o en la sección de Parámetros.
+
+Haz clic en el botón Enviar para enviar la solicitud a la API REST.
+
+En la sección de Respuesta, verás la respuesta JSON que devuelve la API REST. Verifica si la respuesta es la esperada según el método que se está probando.
+
+Repite estos pasos para probar los demás métodos de la API REST.
+
+Recuerda que debes asegurarte de que la aplicación esté en ejecución y que las rutas y controladores estén configurados correctamente en Laravel antes de probar la API REST en Postman.
